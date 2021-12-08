@@ -103,7 +103,7 @@ CMD ["java", "-jar", "bigdata-mongo.jar"]
 expose 8080
 ```
 On build d'abord l'image : 
-<img source="dockerBuild.PNG">
+![Screenshot](dockerBuild.PNG)
 
 Avant de la push sur le docker hub, ce qui va créer le repository par la même occasion :
 <img source="dockerPush.PNG">

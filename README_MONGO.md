@@ -106,7 +106,7 @@ On build d'abord l'image :
 ![Screenshot](dockerBuild.PNG)
 
 Avant de la push sur le docker hub, ce qui va créer le repository par la même occasion :
-![Screenshot](dockerPush.PNG")
+![Screenshot](dockerPush.PNG)
 
 On lie ensuite la base à l'api grâce au fichier docker.compose.yml :
 ```yml

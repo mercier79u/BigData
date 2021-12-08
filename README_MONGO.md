@@ -102,11 +102,11 @@ ADD bigdata-mongo.jar bigdata-mongo.jar
 CMD ["java", "-jar", "bigdata-mongo.jar"]
 expose 8080
 ```
-On build d'abord l'image : 
+On build d'abord l'image :
 ![Screenshot](dockerBuild.PNG)
 
 Avant de la push sur le docker hub, ce qui va créer le repository par la même occasion :
-<img source="dockerPush.PNG">
+![Screenshot](dockerPush.PNG")
 
 On lie ensuite la base à l'api grâce au fichier docker.compose.yml :
 ```yml
